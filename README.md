@@ -118,6 +118,9 @@ Artık bilgisayarımızda yerel bir git projesi ve uzakta da buna karşılık ge
 Ben kendi projemde App.js dosyamdaki veriyi değiştiriyorum.
 
 ![Project 15](gitstatuspardi.PNG)
+
 Uzak deponuzda GitHub sayfasından değişiklik yaptığınız dosyayı açarsanız orada bir değişikliğin olmadığını göreceksiniz.
 Şimdi de ```git commit -am “ilk degisiklik”``` komutuyla değişikliği kayıt altına alın. Bu aşamada hala uzak deponuzda bir değişiklik olmayacaktır. Push komutunu kullanana kadar yaptığınız bütün değişiklikler yerel git deponuzda kalır. Bu değişikliklerin uzak depoda da etkisini göstermesini istiyorsanız ``` git push origin main ```komutunu kullanın.
 
+![Project 16](gitcommitpardi.PNG)
+![Project 17](gitpushpardi.PNG)
