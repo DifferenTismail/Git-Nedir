@@ -22,11 +22,11 @@ Git'in şu anki yazılım bakıcılığını Junio Hamano üstlenmiş durumda. G
 
 
 
-# Day 21
-
-## Document Object Model (DOM) - Day 1
-
-HTML document is structured as a JavaScript Object. Every HTML element has a different properties which can help to manipulate it. It is possible to get, create, append or remove HTML elements using JavaScript. Check the examples below. Selecting HTML element using JavaScript is similar to selecting using CSS. To select an HTML element, we use tag name, id, class name or other attributes.
-
+# Git İle İlgili Temel Kavramlar 
+1. Depo (Repository): Git projelerinin temelini oluşturan depo, proje dosyalarının ve sürüm geçmişinin saklandığı yerdir. Bu depo, yerel bir bilgisayar üzerinde veya uzak bir sunucuda bulunabilir.
+2. Taahhüt (Commit): Bir taahhüt, projenin belirli bir anında yapılan değişikliklerin bir görüntüsünü temsil eder. Taahhütler, projenin sürüm geçmişini oluşturan temel yapı taşlarıdır.
+3. Dal (Branch): Git projeleri genellikle farklı özellikler veya geliştirmeler üzerinde çalışırken farklı dallara ayrılır. Ana dal (genellikle "master" veya "main" olarak adlandırılır), projenin ana sürümünü temsil eder.
+4. Birleştirme (Merge): Farklı dallardaki değişiklikleri birleştirme işlemidir. Bu, farklı geliştiricilerin çalışmalarını bir araya getirme veya yeni bir özellik eklerken ana dala dahil etme sürecini içerir.
+5. İstemci ve Sunucu (Client and Server): Git, hem yerel bilgisayarlarda çalışabilen bir istemci olarak hem de uzak depolara erişim sağlayabilen bir sunucu olarak kullanılabilir. GitHub, GitLab ve Bitbucket gibi hizmetler, uzak sunucular sağlar ve işbirliği yapmayı kolaylaştırır.
 ### Getting Element
 
