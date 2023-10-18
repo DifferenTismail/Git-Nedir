@@ -71,4 +71,8 @@ Komut satırında son kayıttan sonra değişen dosyaların listesini görebilir
 
 ### Yapılan değişiklikleri görme
 
-Kayıt işlemini yapmadan önce ‘git diff’ komutunu kullanarak kaydedilmeyen değişikliklerin (eklenen ve çıkarılan satırların) ne olduğunu görebilirsiniz. Uzun bir dosyada değişiklik yapıldıysa ‘enter’ tuşunu kullarak satır satır ilerlemeniz gerekmektedir. Dosyanın sonuna gelmek istemiyorsanız da klavyeden ‘q’ tuşuna basıp çıkabilirsiniz.
+Kayıt işlemini yapmadan önce <b>‘git diff’</b> komutunu kullanarak kaydedilmeyen değişikliklerin (eklenen ve çıkarılan satırların) ne olduğunu görebilirsiniz. Uzun bir dosyada değişiklik yapıldıysa <b>‘enter’</b> tuşunu kullarak satır satır ilerlemeniz gerekmektedir. Dosyanın sonuna gelmek istemiyorsanız da klavyeden <b>‘q’</b> tuşuna basıp çıkabilirsiniz.
+
+### Yapılan değişiklikleri geri çevirme
+
+Eğer yaptığınız değişiklikleri kaydetmek istemiyorsanız (örneğin son değişiklikler projenin bozulmasına sebep oldu ve geri eski haline döndürmek çok uzun sürüyorsa) <b> ‘git reset —hard HEAD’</b> komutuyla projenizi en son kayıt yapılan haline döndürebilirsiniz.
