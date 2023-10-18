@@ -9,7 +9,7 @@
   </a>
 
 <sub>Yazar:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">İsmail Baran KARASU</a><br>
+<a href="https://www.linkedin.com/in/ismail-baran-karasu-a98916227/" target="_blank">İsmail Baran KARASU</a><br>
 <small> Ekim, 2023</small>
 </sub>
 
