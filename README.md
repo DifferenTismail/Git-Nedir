@@ -20,5 +20,13 @@ Git sürüm kontrol sistemini kullanan her bir çalışma dizini (proje), intern
 
 Git'in şu anki yazılım bakıcılığını Junio Hamano üstlenmiş durumda. Git, GNU Genel Kamu Lisansı'nın 2. sürümüyle lisanslanmış bir özgür yazılımdır. 2.26.0 sürümünden itibaren Türkçe dil desteği sunmaktadır.
 
-#Git Nedir
+
+
+# Day 21
+
+## Document Object Model (DOM) - Day 1
+
+HTML document is structured as a JavaScript Object. Every HTML element has a different properties which can help to manipulate it. It is possible to get, create, append or remove HTML elements using JavaScript. Check the examples below. Selecting HTML element using JavaScript is similar to selecting using CSS. To select an HTML element, we use tag name, id, class name or other attributes.
+
+### Getting Element
 
