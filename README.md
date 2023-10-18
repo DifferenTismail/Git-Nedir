@@ -34,3 +34,5 @@ Git'in şu anki yazılım bakıcılığını Junio Hamano üstlenmiş durumda. G
 Projeniz yeni olsun veya olmasın tek satır komutla projeniz için Git deposu oluşturabilirsiniz.
 Komut ekranını açın ve komut ekranından proje klasörünüze ilerleyin. Projenizin ana klasöründe olduğunuzdan emin olduktan sonra ‘git init’ komutunu girin.
 ![Project 1](gitinit.PNG)
+
+Projemizde .git adında gizli bir klasör oluşması gerekiyor. Şimdi de ‘git status’ komutunu girelim. Bu komut projemizde en son yapılan kayıttan (commit) sonra yapılan değişiklikleri gösteyor. Biz daha önce herhangi bir kayıt yapmadığımız için de şu an bütün dosyalar yeni birer değişiklik olarak görünmekte.
