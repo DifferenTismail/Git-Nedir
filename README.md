@@ -27,6 +27,6 @@ Git'in şu anki yazılım bakıcılığını Junio Hamano üstlenmiş durumda. G
 2. Taahhüt (Commit): Bir taahhüt, projenin belirli bir anında yapılan değişikliklerin bir görüntüsünü temsil eder. Taahhütler, projenin sürüm geçmişini oluşturan temel yapı taşlarıdır.
 3. Dal (Branch): Git projeleri genellikle farklı özellikler veya geliştirmeler üzerinde çalışırken farklı dallara ayrılır. Ana dal (genellikle "master" veya "main" olarak adlandırılır), projenin ana sürümünü temsil eder.
 4. Birleştirme (Merge): Farklı dallardaki değişiklikleri birleştirme işlemidir. Bu, farklı geliştiricilerin çalışmalarını bir araya getirme veya yeni bir özellik eklerken ana dala dahil etme sürecini içerir.
-5. İstemci ve Sunucu (Client and Server): Git, hem yerel bilgisayarlarda çalışabilen bir istemci olarak hem de uzak depolara erişim sağlayabilen bir sunucu olarak kullanılabilir. GitHub, GitLab ve Bitbucket gibi hizmetler, uzak sunucular sağlar ve işbirliği yapmayı kolaylaştırır.
+5. İstemci ve Sunucu (Client and Server): Git, hem yerel bilgisayarlarda çalışabilen bir istemci olarak hem de uzak depolara erişim sağlayabilen bir sunucu olarak kullanılabilir. GitHub ve GitLab gibi hizmetler, uzak sunucular sağlar ve işbirliği yapmayı kolaylaştırır.
 ### Getting Element
 
