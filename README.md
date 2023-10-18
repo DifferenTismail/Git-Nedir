@@ -49,3 +49,5 @@ Fakat bunu yaparken bir hata alıyorum ve kullanıcı adı ile mailimi git yazı
 ![Project 4](gitkullaniciadivemail.PNG)
 
 Kayıt işlemi için de ‘git commit -m “ilk kayit” ’ komutunu girin. Bu komutu girdiğiniz anda ekrana projenizdeki bütün dosyaların tek tek eklendiğini belirten satırlar görürsünüz.
+
+![Project 5](gitcommit.PNG)
