@@ -113,3 +113,6 @@ Ancak projenizi deponuzda hemen göremezsiniz. Projenizi depoya göndermek için
 ![Project 14](reactrepo.PNG)
 
 ## Yapılan Değişikliği Uzak Depoya Kaydetme
+Artık bilgisayarımızda yerel bir git projesi ve uzakta da buna karşılık gelen bir uzak depo bulunmakta. GitHub içinde klasörlerde gezinerek dosyalarınıza bakabilirsiniz. Şimdi projede değişiklik yapıp bunu uzak depoya kaydedeceğiz.
+
+Ben kendi projemde App.js dosyamdaki veriyi değiştiriyorum.
