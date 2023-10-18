@@ -55,3 +55,5 @@ Kayıt işlemi için de ‘git commit -m “ilk kayit” ’ komutunu girin. Bu 
 Şu an tekrar ‘git status’ komutunu girersek ekranda en son yapılan kayıttan sonra herhangi bir değişiklik yapılmadığını gösteren bir yazı görücez.
 
 ![Project 6](gitstatusp.PNG)
+
+Artık bilgisayarımızda projemiz için Git depomuz var. Projemiz üzerinde istediğimiz çılgınlıkları yapabiliriz. Çükü bir şeyleri bozarsak projemizi eski çalışan haline döndürmek artık tek satır komutla mümkün olacaktır.
