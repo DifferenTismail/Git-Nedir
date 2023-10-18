@@ -67,4 +67,4 @@ Gidip projenizde herhangi bir dosyada birkaç değişiklik yapın ve sonra ‘gi
 
 Komut satırında son kayıttan sonra değişen dosyaların listesini görebilirsiniz. Şu an da yapacağımız şey dosyaları kayıta eklemek ve sonra da kayıt işlemini yapmak. Bunu biraz önce yaptığımız gibi sırasıyla ‘git add .’ ve ‘git commit -m “ikinci kayıt” ‘ şeklinde yapabilirsiniz. Ama bu sefer dosyaları ekleme komutunu kayıt komutuyla birleştirerek yapacağız. Komut satırına ‘git commit -am “ikinci kayıt” ‘ komutunu girin. Burada ek olarak kullandığımız a harfi kayıt işlemini yaparken bütün değişikliğe uğramış dosyaları da kayıta ekleyecektir.
 
-![Project 8](gitstatusam.PNG)
+![Project 8](gitcommitam.PNG)
