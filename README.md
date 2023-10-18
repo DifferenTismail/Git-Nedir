@@ -76,3 +76,5 @@ Kayıt işlemini yapmadan önce <b>‘git diff’</b> komutunu kullanarak kayded
 ### Yapılan değişiklikleri geri çevirme
 
 Eğer yaptığınız değişiklikleri kaydetmek istemiyorsanız (örneğin son değişiklikler projenin bozulmasına sebep oldu ve geri eski haline döndürmek çok uzun sürüyorsa) <b> ‘git reset —hard HEAD’</b> komutuyla projenizi en son kayıt yapılan haline döndürebilirsiniz.
+
+## 3-Projenizi uzak bir depoya (remote repository) yerleştirme
