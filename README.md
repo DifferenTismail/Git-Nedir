@@ -96,3 +96,6 @@ Bu projemiz için bunları da geçeceğiz ama ileride .gitignore kullanmanızı 
 ![Project 10](githubnewrepo.PNG)
 ![Project 11](createrepo.PNG)
 
+Ben şimdilik deneme adında bir proje oluşturuyorum. Daha sonra depoları silebildiğiniz şu için isime çok da önem vermeyebilirsiniz.
+
+Create repository düğmesine basarak deponuzu oluşturun. Depo oluştuktan sonra karşınıza çıkan sayfada projenizi bu depoya nasıl koyabileceğinizi anlatan bir kısım göreceksiniz. Bizim zaten bir git projemiz olduğundan sadece projemizi bu depoya yükleme işlemi yapacağız. O da sayfadaki bu kısımda anlatılmış vaziyette zaten.
