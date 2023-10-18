@@ -39,3 +39,7 @@ Komut ekranını açın ve komut ekranından proje klasörünüze ilerleyin. Pro
 Projemizde .git adında gizli bir klasör oluşması gerekiyor. Şimdi de ‘git status’ komutunu girelim. Bu komut projemizde en son yapılan kayıttan (commit) sonra yapılan değişiklikleri gösteyor. Biz daha önce herhangi bir kayıt yapmadığımız için de şu an bütün dosyalar yeni birer değişiklik olarak görünmekte.
 
 ![Project 2](gitstatus.PNG)
+
+Şimdi de bütün dosyalarımızı kayıt listesine ekleyip ardından da kayıt yapacağız. Bunun için ‘git add .’ komutunu girin. Normalde ‘git add’ komutunun en sonuna eklemek istediğiniz dosyayı belirtirsiniz. Bizim komut sonunda kullandığımız nokta ise bütün dosyaları ekle anlamına gelmekte.
+
+Kayıt işlemi için de ‘git commit -m “ilk kayit” ’ komutunu girin. Bu komutu girdiğiniz anda ekrana projenizdeki bütün dosyaların tek tek eklendiğini belirten satırlar görürsünüz.
