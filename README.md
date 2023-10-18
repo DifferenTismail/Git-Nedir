@@ -107,3 +107,5 @@ Projenizde yapılan değişiklikleri tekrar <b>git status</b> komutuyla kontrol 
 Ancak projenizi deponuzda hemen göremezsiniz. Projenizi depoya göndermek için de <b>git push -u origin master</b> komutunu kullanmalısınız. Bu komutu girdikten sonra komut satırında yükleme işlemi yapıldığını göreceksiniz. Bu esnada projeniz uzak depoya yükleniyor olacaktır ve sonuç olarak da komut ekranınız buna benzer bir sonuç göstermelidir.
 
 ![Project 13](gitpush.PNG)
+
+Şimdi GitHub’daki proje sayfanıza giderseniz biraz önce size projenizi nasıl ekleyeceğiniz anlatan mesajlar yerine projenizin dosyalarını göreceksiniz.
