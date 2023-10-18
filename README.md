@@ -63,3 +63,4 @@ Artık bilgisayarımızda projemiz için Git depomuz var. Projemiz üzerinde ist
 
 Gidip projenizde herhangi bir dosyada birkaç değişiklik yapın ve sonra ‘git status’ komutunu kullanarak bu değişikliklerin deponuza nasıl yansıdığını görün. Ben projemde App.js dosyasında değişiklik yaptım ve sonuç bu şekilde oldu.
 
+![Project 7](gitstatusbp.PNG)
