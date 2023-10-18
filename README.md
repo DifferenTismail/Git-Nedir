@@ -59,3 +59,7 @@ Kayıt işlemi için de ‘git commit -m “ilk kayit” ’ komutunu girin. Bu 
 Artık bilgisayarımızda projemiz için Git depomuz var. Projemiz üzerinde istediğimiz çılgınlıkları yapabiliriz. Çükü bir şeyleri bozarsak projemizi eski çalışan haline döndürmek artık tek satır komutla mümkün olacaktır.
 
 ## 2- Temel Git komutları ve kullanımı
+Şimdi de Git komutlarından en çok kullanılanları açıklayıp bir iki örnek göstereceğim.
+
+Gidip projenizde herhangi bir dosyada birkaç değişiklik yapın ve sonra ‘git status’ komutunu kullanarak bu değişikliklerin deponuza nasıl yansıdığını görün. Ben projemde App.js dosyasında değişiklik yaptım ve sonuç bu şekilde oldu.
+
