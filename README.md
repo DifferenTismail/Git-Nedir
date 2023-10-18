@@ -51,3 +51,7 @@ Fakat bunu yaparken bir hata alıyorum ve kullanıcı adı ile mailimi git yazı
 Kayıt işlemi için de ‘git commit -m “ilk kayit” ’ komutunu girin. Bu komutu girdiğiniz anda ekrana projenizdeki bütün dosyaların tek tek eklendiğini belirten satırlar görürsünüz.
 
 ![Project 5](gitcommit.PNG)
+
+Şu an tekrar ‘git status’ komutunu girersek ekranda en son yapılan kayıttan sonra herhangi bir değişiklik yapılmadığını gösteren bir yazı görücez.
+
+![Project 6](gitstatusp.PNG)
