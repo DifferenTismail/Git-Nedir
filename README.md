@@ -86,3 +86,5 @@ GitHub’a kayıtlı değilseniz kaydolun. Eğer programcı olarak uzun yıllar 
 Şu an yapmamız gereken şey depolar sekmesine girip oradaki yeni düğmesine (en sağdaki yeşil düğme) basarak yeni bir depo oluşturmaktır.
 
 ![Project 9](github.PNG)
+
+Karşınıza çok basit bir form çıkacaktır. Formun en üstünde deponun sahibi olacak hesabı seçebileceğiniz ve deponun ismini girebileceğiniz kısımlar var. Onların hemen altında da projenin basit bir açıklamasını gireceğiniz ve projenin herkese açık olup olmadığını seçebileceğiniz kısımlar var.
