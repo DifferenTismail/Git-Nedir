@@ -129,6 +129,7 @@ Bu komuttan sonra GitHub sayfasından değişiklik yaptığınız dosyayı açar
 
 ![Project 18](githubpardi.PNG)
 
+
 Burada üst kısımda da baktığınız dosya üzerinde bu zamana kadar kaç kişinin değişiklik yaptığını, en son değişikliğin kim tarafından ne zaman yapıldığını ve bu değişikliğin mesajının da ne olduğunu görebilirsiniz.
 
 Profil fotoğrafı bulunan satırda satırın en sonunda yazan ilk degisiklik yazısına tıklarsanız o kayıtta hangi değişikliklerin yapıldığını görebilirsiniz. (Aynı şekilde sağ üstteki History düğmesine basarak bu dosya üzerinde bu zamana kadar yapılan kayıtların listesini görebilirsiniz)
