@@ -111,3 +111,5 @@ Ancak projenizi deponuzda hemen göremezsiniz. Projenizi depoya göndermek için
 Şimdi GitHub’daki proje sayfanıza giderseniz biraz önce size projenizi nasıl ekleyeceğiniz anlatan mesajlar yerine projenizin dosyalarını göreceksiniz.
 
 ![Project 14](reactrepo.PNG)
+
+## Yapılan Değişikliği Uzak Depoya Kaydetme
