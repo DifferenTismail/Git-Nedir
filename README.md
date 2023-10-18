@@ -1,4 +1,4 @@
-![image](https://github.com/DifferenTismail/Git-Nedir/assets/73929739/88d99bdf-9e46-43aa-a34f-766dd7ebfa06)
+
 <div align="center">
   <h1> Git Nedir</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/ismail-baran-karasu-a98916227/">
