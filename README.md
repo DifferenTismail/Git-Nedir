@@ -31,4 +31,6 @@ Git'in şu anki yazılım bakıcılığını Junio Hamano üstlenmiş durumda. G
 
 # Git Nasıl Kullanılır
 ## Projeniz için yerel Git deposu (repository) oluşturma
+Projeniz yeni olsun veya olmasın tek satır komutla projeniz için Git deposu oluşturabilirsiniz.
+Komut ekranını açın ve komut ekranından proje klasörünüze ilerleyin. Projenizin ana klasöründe olduğunuzdan emin olduktan sonra ‘git init’ komutunu girin.
 
