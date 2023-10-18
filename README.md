@@ -78,3 +78,10 @@ Kayıt işlemini yapmadan önce <b>‘git diff’</b> komutunu kullanarak kayded
 Eğer yaptığınız değişiklikleri kaydetmek istemiyorsanız (örneğin son değişiklikler projenin bozulmasına sebep oldu ve geri eski haline döndürmek çok uzun sürüyorsa) <b> ‘git reset —hard HEAD’</b> komutuyla projenizi en son kayıt yapılan haline döndürebilirsiniz.
 
 ## 3-Projenizi uzak bir depoya (remote repository) yerleştirme
+
+Projenizi uzak bir depoya yerleştirmek için önce öyle bir depoya sahip olmanız gerekmekte. İnternette bu hizmeti sağlayan GitHub ve BitBucket gibi servisler bulabilirsiniz. Ben yazının devamında GitHub üzerinden devam edeceğim.
+
+GitHub’a kayıtlı değilseniz kaydolun. Eğer programcı olarak uzun yıllar çalışmayı düşünüyorsanız kesinlikle bir GitHub hesabı açmanız gerek. Profil sayfanızı açtığınızda orta kısımda üç tane sekme göreceksiniz. Bunlardan ilki (contributions) sahip olduğunuz veya katkı yaptığınız projeleri gösterir. İkinci kısım da (repositories) sahip olduğunuz veya üzerinde yetki sahibi olduğunuz depoları gösterir. Son sekme de (public activities) GitHub üzerindeki projelerde aleni yaptığınız faaliyetleri görürsünüz.
+
+Şu an yapmamız gereken şey depolar sekmesine girip oradaki yeni düğmesine (en sağdaki yeşil düğme) basarak yeni bir depo oluşturmaktır.
+
