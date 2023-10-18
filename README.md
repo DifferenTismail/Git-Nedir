@@ -42,4 +42,5 @@ Projemizde .git adında gizli bir klasör oluşması gerekiyor. Şimdi de ‘git
 
 Şimdi de bütün dosyalarımızı kayıt listesine ekleyip ardından da kayıt yapacağız. Bunun için ‘git add .’ komutunu girin. Normalde ‘git add’ komutunun en sonuna eklemek istediğiniz dosyayı belirtirsiniz. Bizim komut sonunda kullandığımız nokta ise bütün dosyaları ekle anlamına gelmekte.
 
+
 Kayıt işlemi için de ‘git commit -m “ilk kayit” ’ komutunu girin. Bu komutu girdiğiniz anda ekrana projenizdeki bütün dosyaların tek tek eklendiğini belirten satırlar görürsünüz.
