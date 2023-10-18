@@ -36,11 +36,11 @@ Komut ekranını açın ve komut ekranından proje klasörünüze ilerleyin. Pro
 
 ![Project 1](gitinit.PNG)
 
-Projemizde <b>```.git```</b> adında gizli bir klasör oluşması gerekiyor. Şimdi de <b>```‘git status’```</b> komutunu girelim. Bu komut projemizde en son yapılan kayıttan (commit) sonra yapılan değişiklikleri gösteyor. Biz daha önce herhangi bir kayıt yapmadığımız için de şu an bütün dosyalar yeni birer değişiklik olarak görünmekte.
+Projemizde <b>```.git```</b> adında gizli bir klasör oluşması gerekiyor. Şimdi de <b>```‘git status’```</b> komutunu girelim. Bu komut projemizde en son yapılan kayıttan (commit) sonra yapılan değişiklikleri gösteriyor. Biz daha önce herhangi bir kayıt yapmadığımız için de şu an bütün dosyalar yeni birer değişiklik olarak görünmekte.
 
 ![Project 2](gitstatus.PNG)
 
-Şimdi de bütün dosyalarımızı kayıt listesine ekleyip ardından da kayıt yapacağız. Bunun için <b>```‘git add .’```</b> komutunu girin. Normalde <b>```‘git add’</b>``` komutunun en sonuna eklemek istediğiniz dosyayı belirtirsiniz. Bizim komut sonunda kullandığımız nokta ise bütün dosyaları ekle anlamına gelmekte.
+Şimdi de bütün dosyalarımızı kayıt listesine ekleyip ardından da kayıt yapacağız. Bunun için <b>```‘git add .’```</b> komutunu girin. Normalde <b>```‘git add’```</b> komutunun en sonuna eklemek istediğiniz dosyayı belirtirsiniz. Bizim komut sonunda kullandığımız nokta ise bütün dosyaları ekle anlamına gelmekte.
 
 ![Project 3](gitaddvegittcommit.PNG)
 
@@ -56,7 +56,7 @@ Kayıt işlemi için de <b>```‘git commit -m “ilk kayit” ’```</b> komutu
 
 ![Project 6](gitstatusp.PNG)
 
-Artık bilgisayarımızda projemiz için Git depomuz var. Projemiz üzerinde istediğimiz çılgınlıkları yapabiliriz. Çükü bir şeyleri bozarsak projemizi eski çalışan haline döndürmek artık tek satır komutla mümkün olacaktır.
+Artık bilgisayarımızda projemiz için Git depomuz var. Projemiz üzerinde istediğimiz çılgınlıkları yapabiliriz. Çünkü bir şeyleri bozarsak projemizi eski çalışan haline döndürmek artık tek satır komutla mümkün olacaktır.
 
 ## 2- Temel Git komutları ve kullanımı
 Şimdi de Git komutlarından en çok kullanılanları açıklayıp bir iki örnek göstereceğim.
@@ -91,20 +91,20 @@ Karşınıza çok basit bir form çıkacaktır. Formun en üstünde deponun sahi
 Formun en altında da projenizi ‘beni oku dosyasıyla beraber oluştur’ diye bir seçenek var biz onu kullanmayacağız. Onun hemen altında da iki tane seçenek var. Bunların açıklaması kısaca şöyle:
  1. <b>.gitignore:</b> Bu dosya proje içinde bulunan ama uzak depoda bulunmasını istemediğiniz dosyaları içerir. Genelde asıl kullanım amacı, proje derlendiği zaman oluşan dosyaları uzak depoya koymamaktır. Ayrıca kullandığınız IDE e bağlı dosyaların da uzak depoya konmasını engelleyebilirsiniz. Çünkü bu dosyalar siz bilgisayarınızda derleme yaptığınızda oluşacaktır. Ayrıca her proje türünde (web, ios, android) konması gereksiz olan dosya türleri farklıdır.
  2. <b>licence:</b> Lisans da depoya koyduğunuz projenin başkaları tarafından kullanılması durumunda sorumlu olacakları lisans şartlarını içerir.
-Bu projemiz için bunları da geçeceğiz ama ileride .gitignore kullanmanızı şiddetle tavsiye ederim.
+Bu projemiz için bunları da geçeceğiz ama ileride ```.gitignore``` kullanmanızı şiddetle tavsiye ederim.
 
 ![Project 10](githubnewrepo.PNG)
 ![Project 11](createrepo.PNG)
 
-Ben şimdilik deneme adında bir proje oluşturuyorum. Daha sonra depoları silebildiğiniz şu için isime çok da önem vermeyebilirsiniz.
+Ben şimdilik deneme adında bir proje oluşturuyorum. Daha sonra depoları silebildiğiniz şuan için isime çok da önem vermeyebilirsiniz.
 
-Create repository düğmesine basarak deponuzu oluşturun. Depo oluştuktan sonra karşınıza çıkan sayfada projenizi bu depoya nasıl koyabileceğinizi anlatan bir kısım göreceksiniz. Bizim zaten bir git projemiz olduğundan sadece projemizi bu depoya yükleme işlemi yapacağız. O da sayfadaki bu kısımda anlatılmış vaziyette zaten.
+Create repository düğmesine basarak deponuzu oluşturun. Depo oluştuktan sonra karşınıza çıkan sayfada projenizi bu depoya nasıl koyabileceğinizi anlatan bir kısım göreceksiniz. Bizim zaten bir git projemiz olduğundan sadece projemizi bu depoya yükleme işlemi yapacağız. O da dökümantasyonun bu kısımda anlatılmış vaziyette zaten.
 
 ![Project 12](importrepo.PNG)
 
 Projenizde yapılan değişiklikleri tekrar <b>```git status```</b> komutuyla kontrol edin ve kayıt edilmemiş bir değişiklik varsa bunları <b>```git commit -am “kayıt mesajı”```</b> komutuyla kaydedin. Ve artık bize GitHub sayfasında da gösterildiği gibi<b> ```git remote add origin  https://github.com/DifferenTismail/deneme.git```</b> komutuyla projenizi uzak deponuz ile eşleştirebilirsiniz. (Tabi bu komutu kullanırken kendi deponuzun URL’sini kullanmalısınız.) Bu esnada size github hesabınız için kullanıcı adı ve parola sorulacaktır. Bu bilgileri de girerseniz projeniz uzak depo ile eşleşmiş olacaktır.
 
-Ancak projenizi deponuzda hemen göremezsiniz. Projenizi depoya göndermek için de <b>```git push -u origin master```</b> komutunu kullanmalısınız. Bu komutu girdikten sonra komut satırında yükleme işlemi yapıldığını göreceksiniz. Bu esnada projeniz uzak depoya yükleniyor olacaktır ve sonuç olarak da komut ekranınız buna benzer bir sonuç göstermelidir.
+Ancak projenizi deponuzda hemen göremezsiniz. Projenizi depoya göndermek için de <b>```git push -u origin main```</b> komutunu kullanmalısınız. Bu komutu girdikten sonra komut satırında yükleme işlemi yapıldığını göreceksiniz. Bu esnada projeniz uzak depoya yükleniyor olacaktır ve sonuç olarak da komut ekranınız buna benzer bir sonuç göstermelidir.
 
 ![Project 13](gitpush.PNG)
 
@@ -138,5 +138,4 @@ Profil fotoğrafı bulunan satırda satırın en sonunda yazan ilk degisiklik ya
 
 ## Sonuç
 Sonuç olarak artık projemizde git kullanmaya başlamış olduk. Artık projenizde git’i nasıl kullanacağınızı, değişiklikleri nasıl kaydedeceğinizi, nasıl uzak depo oluşturup projenizi oraya aktarabileceğinizi biliyorsunuz.
-
 Umarım bu anlatılanlar size zor gelmemiştir çünkü bu anlattıklarım daha buz dağının görünen kısmı. Asıl git kullanımı daha yeni başlıyor diyebilirim. Siz ilk olarak git’e alışmaya ve onu anlamaya çalışın. İleride, bir proje üzerinde birden fazla kişi olarak nasıl ve hangi yollarla çalışabilirsiniz onlardan da bahsedeceğim.
