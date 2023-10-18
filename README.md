@@ -23,24 +23,24 @@ Git'in şu anki yazılım bakıcılığını Junio Hamano üstlenmiş durumda. G
 
 
 # Git İle İlgili Temel Kavramlar 
-1. Depo (Repository): Git projelerinin temelini oluşturan depo, proje dosyalarının ve sürüm geçmişinin saklandığı yerdir. Bu depo, yerel bir bilgisayar üzerinde veya uzak bir sunucuda bulunabilir.
-2. Taahhüt (Commit): Bir taahhüt, projenin belirli bir anında yapılan değişikliklerin bir görüntüsünü temsil eder. Taahhütler, projenin sürüm geçmişini oluşturan temel yapı taşlarıdır.
-3. Dal (Branch): Git projeleri genellikle farklı özellikler veya geliştirmeler üzerinde çalışırken farklı dallara ayrılır. Ana dal (genellikle "master" veya "main" olarak adlandırılır), projenin ana sürümünü temsil eder.
-4. Birleştirme (Merge): Farklı dallardaki değişiklikleri birleştirme işlemidir. Bu, farklı geliştiricilerin çalışmalarını bir araya getirme veya yeni bir özellik eklerken ana dala dahil etme sürecini içerir.
-5. İstemci ve Sunucu (Client and Server): Git, hem yerel bilgisayarlarda çalışabilen bir istemci olarak hem de uzak depolara erişim sağlayabilen bir sunucu olarak kullanılabilir. GitHub ve GitLab gibi hizmetler, uzak sunucular sağlar ve işbirliği yapmayı kolaylaştırır.
+1.<b> Depo (Repository):</b> Git projelerinin temelini oluşturan depo, proje dosyalarının ve sürüm geçmişinin saklandığı yerdir. Bu depo, yerel bir bilgisayar üzerinde veya uzak bir sunucuda bulunabilir.
+2. <b>Taahhüt (Commit):</b> Bir taahhüt, projenin belirli bir anında yapılan değişikliklerin bir görüntüsünü temsil eder. Taahhütler, projenin sürüm geçmişini oluşturan temel yapı taşlarıdır.
+3. <b>Dal (Branch):</b> Git projeleri genellikle farklı özellikler veya geliştirmeler üzerinde çalışırken farklı dallara ayrılır. Ana dal (genellikle "master" veya "main" olarak adlandırılır), projenin ana sürümünü temsil eder.
+4. <b>Birleştirme (Merge)</b>: Farklı dallardaki değişiklikleri birleştirme işlemidir. Bu, farklı geliştiricilerin çalışmalarını bir araya getirme veya yeni bir özellik eklerken ana dala dahil etme sürecini içerir.
+5. <b>İstemci ve Sunucu (Client and Server):</b> Git, hem yerel bilgisayarlarda çalışabilen bir istemci olarak hem de uzak depolara erişim sağlayabilen bir sunucu olarak kullanılabilir. GitHub ve GitLab gibi hizmetler, uzak sunucular sağlar ve işbirliği yapmayı kolaylaştırır.
 
 # Git Nasıl Kullanılır
 ## 1- Projeniz için yerel Git deposu (repository) oluşturma
 Projeniz yeni olsun veya olmasın tek satır komutla projeniz için Git deposu oluşturabilirsiniz.
-Komut ekranını açın ve komut ekranından proje klasörünüze ilerleyin. Projenizin ana klasöründe olduğunuzdan emin olduktan sonra ‘git init’ komutunu girin.
+Komut ekranını açın ve komut ekranından proje klasörünüze ilerleyin. Projenizin ana klasöründe olduğunuzdan emin olduktan sonra <b>‘git init’</b> komutunu girin.
 
 ![Project 1](gitinit.PNG)
 
-Projemizde .git adında gizli bir klasör oluşması gerekiyor. Şimdi de ‘git status’ komutunu girelim. Bu komut projemizde en son yapılan kayıttan (commit) sonra yapılan değişiklikleri gösteyor. Biz daha önce herhangi bir kayıt yapmadığımız için de şu an bütün dosyalar yeni birer değişiklik olarak görünmekte.
+Projemizde <b>.git</b> adında gizli bir klasör oluşması gerekiyor. Şimdi de <b>‘git status’</b> komutunu girelim. Bu komut projemizde en son yapılan kayıttan (commit) sonra yapılan değişiklikleri gösteyor. Biz daha önce herhangi bir kayıt yapmadığımız için de şu an bütün dosyalar yeni birer değişiklik olarak görünmekte.
 
 ![Project 2](gitstatus.PNG)
 
-Şimdi de bütün dosyalarımızı kayıt listesine ekleyip ardından da kayıt yapacağız. Bunun için ‘git add .’ komutunu girin. Normalde ‘git add’ komutunun en sonuna eklemek istediğiniz dosyayı belirtirsiniz. Bizim komut sonunda kullandığımız nokta ise bütün dosyaları ekle anlamına gelmekte.
+Şimdi de bütün dosyalarımızı kayıt listesine ekleyip ardından da kayıt yapacağız. Bunun için <b>‘git add .’</b> komutunu girin. Normalde <b>‘git add’</b> komutunun en sonuna eklemek istediğiniz dosyayı belirtirsiniz. Bizim komut sonunda kullandığımız nokta ise bütün dosyaları ekle anlamına gelmekte.
 
 ![Project 3](gitaddvegittcommit.PNG)
 
@@ -48,11 +48,11 @@ Fakat bunu yaparken bir hata alıyorum ve kullanıcı adı ile mailimi git yazı
 
 ![Project 4](gitkullaniciadivemail.PNG)
 
-Kayıt işlemi için de ‘git commit -m “ilk kayit” ’ komutunu girin. Bu komutu girdiğiniz anda ekrana projenizdeki bütün dosyaların tek tek eklendiğini belirten satırlar görürsünüz.
+Kayıt işlemi için de <b>‘git commit -m “ilk kayit” ’</b> komutunu girin. Bu komutu girdiğiniz anda ekrana projenizdeki bütün dosyaların tek tek eklendiğini belirten satırlar görürsünüz.
 
 ![Project 5](gitcommit.PNG)
 
-Şu an tekrar ‘git status’ komutunu girersek ekranda en son yapılan kayıttan sonra herhangi bir değişiklik yapılmadığını gösteren bir yazı görücez.
+Şu an tekrar <b>‘git status’</b> komutunu girersek ekranda en son yapılan kayıttan sonra herhangi bir değişiklik yapılmadığını gösteren bir yazı görücez.
 
 ![Project 6](gitstatusp.PNG)
 
@@ -61,11 +61,11 @@ Artık bilgisayarımızda projemiz için Git depomuz var. Projemiz üzerinde ist
 ## 2- Temel Git komutları ve kullanımı
 Şimdi de Git komutlarından en çok kullanılanları açıklayıp bir iki örnek göstereceğim.
 
-Gidip projenizde herhangi bir dosyada birkaç değişiklik yapın ve sonra ‘git status’ komutunu kullanarak bu değişikliklerin deponuza nasıl yansıdığını görün. Ben projemde App.js dosyasında değişiklik yaptım ve sonuç bu şekilde oldu.
+Gidip projenizde herhangi bir dosyada birkaç değişiklik yapın ve sonra <b>‘git status’</b> komutunu kullanarak bu değişikliklerin deponuza nasıl yansıdığını görün. Ben projemde <b>App.js</b> dosyasında değişiklik yaptım ve sonuç bu şekilde oldu.
 
 ![Project 7](gitstatusbp.PNG)
 
-Komut satırında son kayıttan sonra değişen dosyaların listesini görebilirsiniz. Şu an da yapacağımız şey dosyaları kayıta eklemek ve sonra da kayıt işlemini yapmak. Bunu biraz önce yaptığımız gibi sırasıyla ‘git add .’ ve ‘git commit -m “ikinci kayıt” ‘ şeklinde yapabilirsiniz. Ama bu sefer dosyaları ekleme komutunu kayıt komutuyla birleştirerek yapacağız. Komut satırına ‘git commit -am “ikinci kayıt” ‘ komutunu girin. Burada ek olarak kullandığımız a harfi kayıt işlemini yaparken bütün değişikliğe uğramış dosyaları da kayıta ekleyecektir.
+Komut satırında son kayıttan sonra değişen dosyaların listesini görebilirsiniz. Şu an da yapacağımız şey dosyaları kayıta eklemek ve sonra da kayıt işlemini yapmak. Bunu biraz önce yaptığımız gibi sırasıyla <b>‘git add .’</b> ve <b>‘git commit -m “ikinci kayıt” ‘</b> şeklinde yapabilirsiniz. Ama bu sefer dosyaları ekleme komutunu kayıt komutuyla birleştirerek yapacağız. Komut satırına <b>‘git commit -am “ikinci kayıt” ‘</b> komutunu girin. Burada ek olarak kullandığımız a harfi kayıt işlemini yaparken bütün değişikliğe uğramış dosyaları da kayıta ekleyecektir.
 
 ![Project 8](gitcommitam.PNG)
 
