@@ -101,3 +101,5 @@ Ben şimdilik deneme adında bir proje oluşturuyorum. Daha sonra depoları sile
 Create repository düğmesine basarak deponuzu oluşturun. Depo oluştuktan sonra karşınıza çıkan sayfada projenizi bu depoya nasıl koyabileceğinizi anlatan bir kısım göreceksiniz. Bizim zaten bir git projemiz olduğundan sadece projemizi bu depoya yükleme işlemi yapacağız. O da sayfadaki bu kısımda anlatılmış vaziyette zaten.
 
 ![Project 12](importrepo.PNG)
+
+Projenizde yapılan değişiklikleri tekrar git status komutuyla kontrol edin ve kayıt edilmemiş bir değişiklik varsa bunları git commit -am “kayıt mesajı” komutuyla kaydedin. Ve artık bize GitHub sayfasında da gösterildiği gibi git remote add origin https://github.com/DifferenTismail/deneme.git komutuyla projenizi uzak deponuz ile eşleştirebilirsiniz. (Tabi bu komutu kullanırken kendi deponuzun URL’sini kullanmalısınız.) Bu esnada size github hesabınız için kullanıcı adı ve parola sorulacaktır. Bu bilgileri de girerseniz projeniz uzak depo ile eşleşmiş olacaktır.
