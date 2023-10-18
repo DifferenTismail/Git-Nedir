@@ -42,7 +42,7 @@ Projemizde .git adında gizli bir klasör oluşması gerekiyor. Şimdi de ‘git
 
 Şimdi de bütün dosyalarımızı kayıt listesine ekleyip ardından da kayıt yapacağız. Bunun için ‘git add .’ komutunu girin. Normalde ‘git add’ komutunun en sonuna eklemek istediğiniz dosyayı belirtirsiniz. Bizim komut sonunda kullandığımız nokta ise bütün dosyaları ekle anlamına gelmekte.
 
-![Project 3](gitaddvegitstatus.PNG)
+![Project 3](gitaddvegittstatus.PNG)
 
 Fakat bunu yaparken bir hata alıyorum ve kullanıcı adı ile mailimi git yazılımına tanıtmamı istiyor:
 
