@@ -91,3 +91,4 @@ Karşınıza çok basit bir form çıkacaktır. Formun en üstünde deponun sahi
 Formun en altında da projenizi ‘beni oku dosyasıyla beraber oluştur’ diye bir seçenek var biz onu kullanmayacağız. Onun hemen altında da iki tane seçenek var. Bunların açıklaması kısaca şöyle:
  1. <b>.gitignore:</b> Bu dosya proje içinde bulunan ama uzak depoda bulunmasını istemediğiniz dosyaları içerir. Genelde asıl kullanım amacı, proje derlendiği zaman oluşan dosyaları uzak depoya koymamaktır. Ayrıca kullandığınız IDE e bağlı dosyaların da uzak depoya konmasını engelleyebilirsiniz. Çünkü bu dosyalar siz bilgisayarınızda derleme yaptığınızda oluşacaktır. Ayrıca her proje türünde (web, ios, android) konması gereksiz olan dosya türleri farklıdır.
  2. <b>licence:</b> Lisans da depoya koyduğunuz projenin başkaları tarafından kullanılması durumunda sorumlu olacakları lisans şartlarını içerir.
+Bu projemiz için bunları da geçeceğiz ama ileride .gitignore kullanmanızı şiddetle tavsiye ederim.
