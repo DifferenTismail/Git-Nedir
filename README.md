@@ -20,4 +20,5 @@ Git sürüm kontrol sistemini kullanan her bir çalışma dizini (proje), intern
 
 Git'in şu anki yazılım bakıcılığını Junio Hamano üstlenmiş durumda. Git, GNU Genel Kamu Lisansı'nın 2. sürümüyle lisanslanmış bir özgür yazılımdır. 2.26.0 sürümünden itibaren Türkçe dil desteği sunmaktadır.
 
+#Git Nedir
 
