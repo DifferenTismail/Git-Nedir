@@ -124,3 +124,5 @@ Uzak deponuzda GitHub sayfasından değişiklik yaptığınız dosyayı açarsan
 
 ![Project 16](gitcommitpardi.PNG)
 ![Project 17](gitpushpardi.PNG)
+
+Bu komuttan sonra GitHub sayfasından değişiklik yaptığınız dosyayı açarsanız değişikliklerin buraya da yansıdığını görebilirsiniz.
