@@ -103,3 +103,5 @@ Create repository düğmesine basarak deponuzu oluşturun. Depo oluştuktan sonr
 ![Project 12](importrepo.PNG)
 
 Projenizde yapılan değişiklikleri tekrar git status komutuyla kontrol edin ve kayıt edilmemiş bir değişiklik varsa bunları git commit -am “kayıt mesajı” komutuyla kaydedin. Ve artık bize GitHub sayfasında da gösterildiği gibi git remote add origin https://github.com/DifferenTismail/deneme.git komutuyla projenizi uzak deponuz ile eşleştirebilirsiniz. (Tabi bu komutu kullanırken kendi deponuzun URL’sini kullanmalısınız.) Bu esnada size github hesabınız için kullanıcı adı ve parola sorulacaktır. Bu bilgileri de girerseniz projeniz uzak depo ile eşleşmiş olacaktır.
+
+Ancak projenizi deponuzda hemen göremezsiniz. Projenizi depoya göndermek için de git push -u origin master komutunu kullanmalısınız. Bu komutu girdikten sonra komut satırında yükleme işlemi yapıldığını göreceksiniz. Bu esnada projeniz uzak depoya yükleniyor olacaktır ve sonuç olarak da komut ekranınız buna benzer bir sonuç göstermelidir.
