@@ -30,5 +30,5 @@ Git'in şu anki yazılım bakıcılığını Junio Hamano üstlenmiş durumda. G
 5. İstemci ve Sunucu (Client and Server): Git, hem yerel bilgisayarlarda çalışabilen bir istemci olarak hem de uzak depolara erişim sağlayabilen bir sunucu olarak kullanılabilir. GitHub ve GitLab gibi hizmetler, uzak sunucular sağlar ve işbirliği yapmayı kolaylaştırır.
 
 # Git Nasıl Kullanılır
-### Projeniz için yerel Git deposu (repository) oluşturma
+
 
