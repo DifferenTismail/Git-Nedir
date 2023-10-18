@@ -109,3 +109,5 @@ Ancak projenizi deponuzda hemen göremezsiniz. Projenizi depoya göndermek için
 ![Project 13](gitpush.PNG)
 
 Şimdi GitHub’daki proje sayfanıza giderseniz biraz önce size projenizi nasıl ekleyeceğiniz anlatan mesajlar yerine projenizin dosyalarını göreceksiniz.
+
+![Project 14](reactrepo.PNG)
