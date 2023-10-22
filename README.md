@@ -23,11 +23,11 @@ Git'in şu anki yazılım bakıcılığını Junio Hamano üstlenmiş durumda. G
 
 
 # Git İle İlgili Temel Kavramlar 
-1.<b> Depo (Repository):</b> Git projelerinin temelini oluşturan depo, proje dosyalarının ve sürüm geçmişinin saklandığı yerdir. Bu depo, yerel bir bilgisayar üzerinde veya uzak bir sunucuda bulunabilir.
-2. <b>Taahhüt (Commit):</b> Bir taahhüt, projenin belirli bir anında yapılan değişikliklerin bir görüntüsünü temsil eder. Taahhütler, projenin sürüm geçmişini oluşturan temel yapı taşlarıdır.
-3. <b>Dal (Branch):</b> Git projeleri genellikle farklı özellikler veya geliştirmeler üzerinde çalışırken farklı dallara ayrılır. Ana dal (genellikle ```"master"``` veya ```"main"``` olarak adlandırılır), projenin ana sürümünü temsil eder.
-4. <b>Birleştirme (Merge)</b>: Farklı dallardaki değişiklikleri birleştirme işlemidir. Bu, farklı geliştiricilerin çalışmalarını bir araya getirme veya yeni bir özellik eklerken ana dala dahil etme sürecini içerir.
-5. <b>İstemci ve Sunucu (Client and Server):</b> Git, hem yerel bilgisayarlarda çalışabilen bir istemci olarak hem de uzak depolara erişim sağlayabilen bir sunucu olarak kullanılabilir. GitHub ve GitLab gibi hizmetler, uzak sunucular sağlar ve işbirliği yapmayı kolaylaştırır.
+1. Depo (Repository):</b> Git projelerinin temelini oluşturan depo, proje dosyalarının ve sürüm geçmişinin saklandığı yerdir. Bu depo, yerel bir bilgisayar üzerinde veya uzak bir sunucuda bulunabilir.
+2. Taahhüt (Commit):</b> Bir taahhüt, projenin belirli bir anında yapılan değişikliklerin bir görüntüsünü temsil eder. Taahhütler, projenin sürüm geçmişini oluşturan temel yapı taşlarıdır.
+3. Dal (Branch):</b> Git projeleri genellikle farklı özellikler veya geliştirmeler üzerinde çalışırken farklı dallara ayrılır. Ana dal (genellikle ```"master"``` veya ```"main"``` olarak adlandırılır), projenin ana sürümünü temsil eder.
+4. Birleştirme (Merge)</b>: Farklı dallardaki değişiklikleri birleştirme işlemidir. Bu, farklı geliştiricilerin çalışmalarını bir araya getirme veya yeni bir özellik eklerken ana dala dahil etme sürecini içerir.
+5. İstemci ve Sunucu (Client and Server):</b> Git, hem yerel bilgisayarlarda çalışabilen bir istemci olarak hem de uzak depolara erişim sağlayabilen bir sunucu olarak kullanılabilir. GitHub ve GitLab gibi hizmetler, uzak sunucular sağlar ve işbirliği yapmayı kolaylaştırır.
 
 # Git Nasıl Kullanılır
 ## 1- Projeniz için yerel Git deposu (repository) oluşturma
